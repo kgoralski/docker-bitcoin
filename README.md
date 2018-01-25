@@ -1,7 +1,7 @@
 # Docker-Bitcoin-ABC
 Source https://github.com/kgoralski/docker-bitcoin/tree/master/abc/0.16.2
 
-### Differencies
+### Differences
 
 Version with updating bitcoin.conf with each run: 
 
