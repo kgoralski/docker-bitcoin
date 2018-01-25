@@ -17,6 +17,7 @@ if [[ "$1" == "bitcoin-cli" || "$1" == "bitcoin-tx" || "$1" == "bitcoind" || "$1
 		zmqpubhashtx=tcp://0.0.0.0:28332
 		zmqpubrawblock=tcp://0.0.0.0:28332
 		zmqpubrawtx=tcp://0.0.0.0:28332
+		debug=1
 		EOF
 	chown bitcoin:bitcoin "$BITCOIN_DATA/bitcoin.conf"
 
